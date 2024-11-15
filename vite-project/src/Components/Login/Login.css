@@ -1,0 +1,62 @@
+/* login */
+
+.logininput::placeholder{
+    font-size: 14px;
+    padding-left: 20px;
+}
+.logininput:focus{
+    outline:none;
+    box-shadow: 0 0 5px #4A90E2;
+}
+.logininput{
+    border: none;
+}
+
+/* .icon:focus{
+    display: none;
+} */
+
+
+.loginbuttons{
+    background-color: #93ab01;
+}
+.loginbuttons:hover{
+   background-color: #171f52;
+   transition: 0.5s;
+}
+
+.input-container{
+    position: relative;
+}
+.icon{
+    position:absolute;
+    top:50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+/* signup */
+
+.signupinput::placeholder{
+    font-size: 14px;
+    padding-left: 20px;
+}
+.signupinput:focus{
+    outline:none;
+    box-shadow: 0 0 5px #4A90E2;
+}
+.signupinput{
+    border: none;
+}
+
+.signupbuttons{
+   background-color: #171f52;
+}
+.signupbuttons:hover{
+    background-color: #93ab01;
+    transition: 0.5s;
+}

@@ -1,0 +1,130 @@
+[ 
+   {
+     "id":1,
+     "img":"https://img.freepik.com/free-photo/high-angle-pakistan-dish-assortment_23-2148821520.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Chicken Briyani",
+     "type":"non-veg",
+     "price":150 
+   },
+   
+   { 
+     "id":2,
+     "img":"https://img.freepik.com/free-photo/lemon-rosemary-near-chicken_23-2147765467.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Tandoori Chicken",
+     "type":"non-veg",
+     "price":400 
+   },
+
+   { 
+     "id":3,
+     "img":"https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Mutton Briyani",
+     "type":"non-veg",
+     "price":200 
+   },
+
+   { 
+     "id":4,
+     "img":"https://img.freepik.com/free-photo/top-view-delicious-fish-meal_23-2148734691.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Fish Curry",
+     "type":"non-veg",
+     "price":150 
+   },
+
+   {
+     "id":5,
+     "img":"https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Butter Chicken",
+     "type":"non-veg",
+     "price":120 
+   },
+
+    {
+     "id":6,
+     "img":"https://img.freepik.com/free-photo/top-view-spicy-chicken-with-lettuce-lemon-pan-table_181624-61795.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Chicken 65",
+     "type":"non-veg",
+     "price":80 
+   },
+   
+    {
+     "id":7,
+     "img":"https://img.freepik.com/free-photo/roasted-grilled-beef-liver-with-onion-tomatoes-salad_2829-10731.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Mutton Roast",
+     "type":"non-veg",
+     "price":220 
+   },
+
+    {
+     "id":8,
+     "img":"https://img.freepik.com/free-photo/side-view-doner-with-grilled-chicken-greens-lettuce-tomato-french-fries-table_141793-4881.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Chicken Roll",
+     "type":"non-veg",
+     "price":80 
+   },
+
+   {
+     "id":9,
+     "img":"https://img.freepik.com/free-photo/chopped-parsley-radish-pepper-kumquat-wooden-plate-marble_114579-87427.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Idly",
+     "type":"veg",
+     "price":8 
+   },
+   
+   {
+     "id":10,
+     "img":"https://img.freepik.com/free-photo/delicious-indian-dosa-composition_23-2149086051.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Dosa",
+     "type":"veg",
+     "price":40 
+   },
+
+   {
+     "id":11,
+     "img":"https://img.freepik.com/free-photo/indian-tasty-roti-composition_23-2149073357.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Chappathi",
+     "type":"veg",
+     "price":20 
+   },
+
+   {
+     "id":12,
+     "img":"https://img.freepik.com/free-photo/fried-rice-with-minced-pork-tomato-carrot-cucumber-plate_1150-27179.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Tomato Rice",
+     "type":"veg",
+     "price":40 
+   },
+
+   {
+     "id":13,
+     "img":"https://img.freepik.com/free-photo/top-view-composition-different-pakistan-goodies_23-2148821564.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Thali Meal",
+     "type":"veg",
+     "price":90 
+   },
+
+    {
+     "id":14,
+     "img":"https://img.freepik.com/free-photo/delicious-pakistan-dish-arrangement_23-2148821526.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Lemon Rice",
+     "type":"veg",
+     "price":50 
+   },
+   
+    {
+     "id":15,
+     "img":"https://img.freepik.com/free-photo/pakistani-food-cloth-flat-lay_23-2148825098.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Parotta",
+     "type":"veg",
+     "price":10 
+   },
+
+    {
+     "id":16,
+     "img":"https://img.freepik.com/free-photo/view-peas-rice-dish_140725-113294.jpg?ga=GA1.1.2113007044.1729600980&semt=ais_hybrid",
+     "name":"Curd Rice",
+     "type":"veg",
+     "price":50 
+   }
+ 
+]

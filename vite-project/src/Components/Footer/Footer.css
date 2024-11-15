@@ -1,0 +1,4 @@
+.footerhover:hover{
+    transform: translateY(-7px);
+    transition: .5s;
+}

@@ -1,0 +1,30 @@
+/* .check-container input[type="checkbox"]:checked{
+    background-color:#93ab01 ;
+    color: blue;
+}
+
+.check-container input[type="checkbox"]:checked{
+    display: none;
+} */
+
+.place::placeholder{
+    font-size: 13px;
+    color: #171f52;
+    /* padding-left: 20px; */
+}
+
+.place:focus{
+    outline: none;
+    box-shadow: 0 0 5px  #4A90E2;
+}
+
+@media (max-width:992px){
+    .place::placeholder{
+        font-size: 10px;
+    }
+}
+
+.contactbuttons:hover{
+    filter: brightness(75%);
+    transition: 0.3s;
+}

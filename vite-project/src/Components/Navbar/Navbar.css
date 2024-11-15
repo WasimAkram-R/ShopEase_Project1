@@ -1,0 +1,111 @@
+
+@media (max-width:992px){
+    .green{
+     position: relative;
+ }
+ .green::after{
+     width: 0;
+     content: "";
+     height: 3px;
+     background-color:#93ab01;
+     position: absolute;
+     left: 0;
+     bottom: -6px;
+     transition: 0.5s;
+ }
+ .green:hover::after{
+     width: 100%;
+ }
+     
+ }
+
+@media (min-width:991px){
+    .green{
+    position: relative;
+}
+.green::after{
+    width: 0;
+    content: "";
+    height: 3px;
+    background-color:#93ab01 !important;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.green:hover::after{
+    width: 100%;
+}
+    
+}
+
+
+.custom-navbar-collapses{
+    @media (max-width:992px){
+        border-radius: 10px;
+        /* background-color:#171f52; */
+        /* color:white !important; */
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* .custom-navbar-collapse{
+    @media (max-width:992px){
+        color:white;
+       
+    }
+}     */
+
+
+
+
+
+
+
+
+/* search */
+
+
+.searchinput::placeholder{
+    font-size: 13px;
+    font-weight: 400;
+    color: #171f52;
+    padding-left: 20px;
+}
+
+
+
+.searchinput:focus{
+    outline: none;
+    box-shadow: 0 0 5px  #4A90E2;
+}
+
+.search-container-icon{
+    position: relative;
+}
+.searchicon{
+    position: absolute;
+    top:50%;
+    left:40%;
+    transform:translateY(-50%);
+    transform:translateY(-40%);
+
+}
+
+
+
+
+/* cart */
+.cartbuttons:hover{
+    filter: brightness(75%);
+    transition: 0.3s;
+}
+
+
+
+/* @media (max-width:767px){
+    .cartoffcanvas{
+        width: 50%;
+    }
+} */
