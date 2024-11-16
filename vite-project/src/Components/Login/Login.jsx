@@ -239,7 +239,7 @@ const Login = () => {
 
            <div className='d-flex justify-content-between my-3'>
               <label><input type="checkbox"/> Remember me</label>
-              <h6>Forget Password</h6>
+              {/* <h6>Forget Password</h6> */}
            </div>
 
            <div>

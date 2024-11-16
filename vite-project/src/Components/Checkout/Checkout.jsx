@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import Accordion from 'react-bootstrap/Accordion';
 import './Checkout.css'
 
-const Checkout = ({ carts, total }) => {
+const Checkout = ({ carts, total,resetCart }) => {
   const [smShow, setSmShow] = useState(false);
   const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
@@ -13,7 +13,14 @@ const Checkout = ({ carts, total }) => {
     setFullscreen(breakpoint);
     setShow(true);
   }
+  
+  const handlePlaceOrder = () => {
+    // Show success modal
+    setSmShow(true);
 
+    // Reset the cart and total after placing the order
+    resetCart();
+  };
   return (
     <>
       <div className="text-center">
@@ -134,8 +141,8 @@ const Checkout = ({ carts, total }) => {
               </div>
 
               <div className="row border-bottom border-black-50 py-3">
-                <div className="col-9"><h6>Shipping</h6></div>
-                <div className="col-3"><label><input type="radio" required name="shipping" /> Free Shipping</label></div>
+                <div className="col-xxl-9 col-sm-5 col-6"><h6>Shipping</h6></div>
+                <div className="col-xxl-3 col-sm-5 col-6"><label><input type="radio" required name="shipping" /> Free Shipping</label></div>
               </div>
 
              
@@ -171,7 +178,7 @@ const Checkout = ({ carts, total }) => {
  </Accordion>
 
                   <button
-                    onClick={() => setSmShow(true)}
+                     onClick={handlePlaceOrder}
                     className="buttons rounded-3 border-0 p-3 w-100 fw-bold fs-6 mt-3"
                     style={{ backgroundColor: "#93ab01" }}
                   >

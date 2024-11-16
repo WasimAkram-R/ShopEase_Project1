@@ -16,7 +16,7 @@ import Cart from './Cart.png'
 import Checkout from '../Checkout/Checkout';
 import Login from '../Login/Login';
 
-const NavScrollExample = ({ carts, total, updateCart }) => {
+const NavScrollExample = ({ carts, total, updateCart,resetCart }) => {
   const [cart, setCart] = useState(false);
   const handleCloseCart = () => setCart(false);
   const toggleCart = () => setCart((s) => !s);
@@ -195,7 +195,8 @@ const NavScrollExample = ({ carts, total, updateCart }) => {
 
           
  {/* {checkout modal } */}
-  <Checkout carts={carts} total={total}/>
+  <Checkout carts={carts} total={total}
+  resetCart={resetCart}/>
 
 
 

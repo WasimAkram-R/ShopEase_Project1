@@ -13,6 +13,11 @@ const All = () => {
   const [allmenus, setAllmenus] = useState(AllMenus);
   const [selectedMenuType, setSelectedMenuType] = useState('All');
 
+  const resetCart = () => {
+    setCarts([]);
+    setTotal(0);
+  };
+
   // Filter the menus based on the selected type
   const filteredMenus = selectedMenuType === 'All'
     ? allmenus
@@ -90,7 +95,7 @@ const All = () => {
          
 
 
-      <NavScrollExample carts={carts} total={total} updateCart={updateCart} /> 
+      <NavScrollExample carts={carts} total={total} updateCart={updateCart} resetCart={resetCart} /> 
 
      <div className="container-fluid bg-body-tertiary ">
       <div className="container pb-5 pt-md-5">
