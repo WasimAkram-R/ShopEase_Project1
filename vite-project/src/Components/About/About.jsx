@@ -21,8 +21,8 @@ const About = () => {
   return (
     <>
       
-      {/* <div className="container-fluid bg-primary"> */}
-         {/* <div className='position-relative'>
+      {/* <div className="container-fluid bg-primary"> 
+       <div className='position-relative'>
           <div className=''>
           <img src={about} alt="" className='img-fluid aboutimg ' style={{width:"100%",height:"400px" ,objectFit:"cover"}}/>
           </div>
@@ -31,9 +31,8 @@ const About = () => {
               <h2>To connect people with the best food experience</h2>
               <p>Welcome to ShopEase, where food is just a tap away favourite local restaurants directly to your door</p>
           </div>
-         </div> */}
-
-{/* 
+         </div> 
+ 
          <div id="about" className="container-fluid "
          style={{backgroundImage:`url('/src/components/About/Lexica.png')`,height:"600px",filter:`brightness()`,
           backgroundSize:"cover",backgroundPosition:"center",
@@ -51,7 +50,7 @@ const About = () => {
              
          </div> */}
 
-{/* <div className="container-fluid"> */}
+
 
 
 <Carousel className='' id="about">
@@ -91,7 +90,7 @@ const About = () => {
 
 </Carousel>
 
-{/* </div> */}
+
 
          <div className='bg-body-tertiary pt-md-5 py-4'>
          <div className="container">
@@ -153,7 +152,7 @@ const About = () => {
 
          </div>
          </div>
-      {/* </div> */}
+    
     </>
   )
 }

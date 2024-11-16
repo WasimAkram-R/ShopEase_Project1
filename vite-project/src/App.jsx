@@ -4,7 +4,7 @@ import All from './Components/Menu/All'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import Login from './Components/Login/Login'
+
 
 
 
@@ -28,7 +28,6 @@ function App() {
 
     <Footer/>
 
-    {/* <Login/> */}
     </>
   )
 }
