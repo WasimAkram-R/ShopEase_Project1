@@ -142,7 +142,7 @@ const Checkout = ({ carts, total,resetCart }) => {
 
               <div className="row border-bottom border-black-50 py-3">
                 <div className="col-xxl-9 col-sm-5 col-6"><h6>Shipping</h6></div>
-                <div className="col-xxl-3 col-sm-5 col-6"><label><input type="radio" required name="shipping" /> Free Shipping</label></div>
+                <div className="col-xxl-3 col-sm-5 col-6"><label className="d-flex column-gap-1" style={{fontSize:"12px"}}><input type="radio" required name="shipping" /> Free Shipping</label></div>
               </div>
 
              
