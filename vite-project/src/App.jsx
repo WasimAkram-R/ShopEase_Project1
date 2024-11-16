@@ -1,9 +1,9 @@
 import './App.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import All from './Components/Menu/All'
-import About from './components/About/About'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
+import About from './Components/About/About'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 
 
