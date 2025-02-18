@@ -247,9 +247,6 @@ const Login = () => {
            </div>
 
          </div>
-
-
-
           {/* Sign Up*/}
 
           <div className=" col-md-5 col-10 bg-body-tertiary p-4">
@@ -297,8 +294,7 @@ const Login = () => {
 
           </div>
 
-
-
+          
         </div> 
 
 
